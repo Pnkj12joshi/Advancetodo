@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Sen', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  .dark {
+    background-color: #1a202c;
+    color: white;
+  }
+  
